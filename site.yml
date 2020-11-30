@@ -1,3 +1,6 @@
 ---
-- debug:
-    msg: "I am site.yml"
+- name: ansible play
+  hosts: all
+  tasks:
+    - debug:
+        msg: "I am site.yml"
